@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Israel Adediran">
+    <meta name="description" content="This Page Contain Scrimba Basket Ball Score Board Project">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <title>NBA Score Board</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="top">
+            <span id="countdown" class="timer">00:00</span>
+        </div>
+
+
+        <div class="home-away">
+            <h1>HOME</h1>
+            <h1>AWAY</h1>
+        </div>
+
+        <div class="middle">
+
+            <div>
+                <div>
+                    <span id="home-el" class="score">0</span>
+                </div>
+
+                <div>
+                    <input onclick="homeAddOne()" type="button" value="+1">
+                    <input onclick="homeAddTwo()" type="button" value="+2">
+                    <input onclick="homeAddThree()" type="button" value="+3">
+                </div>
+            </div>
+
+            <div>
+
+                <div class="child-1">
+                    <div><input onclick="periodMinusOne()" type="button" value="-1"></div>
+                    <div>
+                        <span id="period-el" class="score">0</span>
+                    </div>
+                    <div><input onclick="periodAddOne()" type="button" value="+1"></div>
+                </div>
+
+                <div>
+                    <h1>PERIOD</h1>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div>
+                    <span id="away-el" class="score">0</span>
+                </div>
+
+                <div>
+                    <input onclick="awayAddOne()" type="button" value="+1">
+                    <input onclick="awayAddTwo()" type="button" value="+2">
+                    <input onclick="awayAddThree()" type="button" value="+3">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="down">
+            <div>
+                <h1>FOULS</h1>
+                <span id="foul1-el" class="score">0</span>
+                <div><input onclick="homey()" type="button" value="+1"></div>
+                <h1>POINTS</h1>
+            </div>
+
+            <div>
+                <h1>PLAYER-FOULS</h1>
+                <span id="player-el" class="score">0</span>
+                <h1>MATCH</h1>
+            </div>
+
+            <div>
+                <h1>FOULS</h1>
+                <span id="foul2-el" class="score">0</span>
+                <div><input onclick="awey()" type="button" value="+1"></div>
+                <h1>POINTS</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- <div class="top">
+            <span class="no-1">00:00</span>
+        </div>
+
+        <div class="middle">
+            <div class="home">
+
+                <div>
+                    <h1>HOME</h1>
+                </div>
+
+                <div class="btn">
+                    <div class="btn-1 btt">
+                        <button class="btt">+1</button>
+                        <button class="btt">+2</button>
+                        <button>+3</button>
+                    </div>
+                    <h1 class="no-2">0</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="child-1">
+                    <button>-1</button>
+                    <span>0</span>
+                    <button>+2</button>
+                </div>
+                <div class="child-2">
+                    <h1>PERIOD</h1>
+                </div>
+            </div>
+
+            <div>
+                <h1>AWAY</h1>
+
+                <div class="away-btn">
+                    <div>
+                        <span>0</span>
+                    </div>
+                    <div class="btn-2">
+                        <button>+1</button>
+                        <button>+2</button>
+                        <button>+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="down">
+            <div>
+                <h1>FOULS</h1>
+                <button>00</button>
+                <h1>POINTS</h1>
+            </div>
+            <div>
+                <h1>PLAYER-FOUL</h1>
+                <button>00</button>
+                <h1>MATCH</h1>
+            </div>
+            <div>
+                <h1>FOULS</h1>
+                <button>00</button>
+                <h1>POINTS</h1>
+            </div>
+        </div> -->
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

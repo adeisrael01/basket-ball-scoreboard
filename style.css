@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Gene;
+    src: url(BACK\ TO\ SCHOOL\ PERSONAL\ USE.ttf);
+}
+
+@font-face {
+    font-family: italics;
+    src: url(led_counter-7_italic.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.main-container {
+    width: 40%;
+    height: 500px;
+    border: 4px solid white;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: italics;
+}
+
+.top {
+    margin: 0 auto 3px auto;
+    color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+    width: 44%;
+    border-top: 0;
+    font-family: italics;
+    height: 100px;
+}
+
+.timer {
+    font-size: 80px;
+    width: 100%;
+}
+
+.home-away {
+    display: flex;
+    justify-content: space-between;
+    font-family: gene;
+}
+
+.home-away h1 {
+    font-size: 40px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child-1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+input {
+    background-color: #B60E0E;
+    color: white;
+    width: 30px;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.score {
+    font-size: 72px;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-family: italics;
+}
+
+h1 {
+    font-family: gene;
+    font-size: 35px;
+}
+
+/* .middle {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+} */
+
+/* .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.btt {
+    background-color: red;
+    padding: 5px;
+}
+
+.no-2 {
+    font-size: 80px;
+} */
+
+
+
+
+/* h2,
+h1 {
+    font-family: gene;
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+} */
